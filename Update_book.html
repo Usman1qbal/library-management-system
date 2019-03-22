@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>library management system</title>
+        
+        <link rel="stylesheet" type="text/css" href="Asset/Style/style.css" />
+    </head>
+
+    <body onload="Update_book_detail_load()">
+        <p class="Header">
+            Library Management System
+        </p>
+
+        <section id="add-book" class="add-textbox-format">
+                    <h1 class="Header add-book-heading"> Update Detail</h1>
+                    <label for="BookName">Book Name</label>
+                    <input type="text" id="BookName" name="Book Name" placeholder="Book name..">
+                
+                    <label for="Author">Author</label>
+                    <input type="text" id="Author" name="Author" placeholder="Author name..">
+                   
+                    <label for="Publisher">Publisher</label>
+                    <input type="text" id="Publisher" name="Publisher" placeholder="Publisher name..">
+                    
+                    <label for="Date">Date</label>
+                    <input type="text" id="Date" name="Date" placeholder="YYYY - MM - DD">
+                  
+                    <input type="submit" value="Update" class="Author-Publisher-button" onclick="update_Book_detail()">
+                    <a href="index.html"><input type="submit" value="Back / Cancel" class="Author-Publisher-button"> </a>
+
+        </section>
+
+    </body>
+    <script type='text/javascript' src="Asset/Script/add-book.js"></script>
+    
+    <script type='text/javascript' src="Asset/Script/index-page-script.js"></script>
+</html>

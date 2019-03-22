@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>library management system</title>
+        
+        <link rel="stylesheet" type="text/css" href="Asset/Style/style.css" />
+    </head>
+
+    <body onload="show_data()">
+        <p class="Header">
+            Library Management System
+        </p>
+
+        <div >
+            <a href="./Author_list.html"><input type="button" value="Authors" class="Author-Publisher-button"></a>
+            <a href="./punlisher_list.html"><input type="button" value="Publishers" class="Author-Publisher-button"></a>
+        </div>
+
+
+
+        <table id="Book-table">
+                <tr class="table-heading">
+                    <th>Number</th>
+                    <th>BookName</th>
+                    <th>Author</th>
+                    <th>Publishers</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+        </table>
+
+        <a href="Add-book.html"><input type="button" class="add-book-btn" value="Add new Book!"></a>
+
+        
+
+    </body>
+    <script type='text/javascript' src="Asset/Script/index-page-script.js"></script>
+    <script type='text/javascript' src="Asset/Script/add-book.js"></script>
+</html>

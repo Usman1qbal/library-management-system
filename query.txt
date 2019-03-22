@@ -1,0 +1,16 @@
+localStorage.setItem('Book[0]','{"BookName":"Frankenstein","Author":"MAry Shelley","Publisher":"London Publishers","Date":"1908-04-05"}');
+localStorage.setItem('Book[1]','{"BookName":"Harry Potter","Author":"J. K. Rowling","Publisher":"Bloomsbury Publishing","Date":"1997-06-26"}');
+localStorage.setItem('Book[2]','{"BookName":"Learning Python","Author":"Mark Lutz","Publisher":"Oreily","Date":"2013-01-04"}');
+localStorage.setItem('Book[3]','{"BookName":"Cracking the Coding INterview","Author":"Gayle McDowell","Publisher":"Career Cup","Date":"2015-06-03"}');
+localStorage.setItem('Book[4]','{"BookName":"Cracking the Tech Career, Second Edition","Author":"Gayle McDowell","Publisher":"Career Cup","Date":"2016-01-26"}');
+localStorage.setItem('Book[5]','{"BookName":"Dracula","Author":"Bram Stoker","Publisher":"Constable & Robinson","Date":"1897-04-05"}');
+localStorage.setItem('Author[0]','{"Name":"Mark Lutz","number_of_book":1}');
+localStorage.setItem('Author[1]','{"Name":"Gayle McDowell","number_of_book":"2"}');
+localStorage.setItem('Author[2]','{"Name":"Mark Lutz","number_of_book":1}');
+localStorage.setItem('Author[3]','{"Name":"Gayle McDowell","number_of_book":"2"}');
+localStorage.setItem('Author[4]','{"Name":"Bram Stoker","number_of_book":1}');
+localStorage.setItem('Publisher[0]','{"Name":"London Publishers","number_of_book":1}');
+localStorage.setItem('Publisher[1]','{"Name":"Bloomsbury Publishing","number_of_book":1}');
+localStorage.setItem('Publisher[2]','{"Name":"Oreily","number_of_book":1}');
+localStorage.setItem('Publisher[3]','{"Name":"Career Cup","number_of_book":"2"}');
+localStorage.setItem('Publisher[4]','{"Name":"Constable & Robinson","number_of_book":1}');
